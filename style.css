@@ -1,0 +1,111 @@
+   /*Inicio HTML*/
+   * {       
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+    /*Final HTML*/
+
+    
+    /* Inicio redes sociales */
+#redes-sociales{
+    color: blue;
+}
+
+#Instagram{
+    color: brown;
+}
+
+#Facebook{
+    color: brown;
+}
+
+    /*Fianl Redes sociales*/
+
+.imagen-1{
+    width: 500px;
+    height: 500px;
+}
+
+    /*Inicio Formulario*/
+.registro-1 {
+    width: 300px;
+    height: 200px;
+}
+
+.formulario-registro{
+    width: 330px;
+    background-color:#000000ee;
+    padding: 20px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 18px 14px 30px, -18px 14px 30px, -18px -14px 30px, 18px -14px 30px;
+    height: 400px;
+}
+
+.formulario-registro h2 {
+    font-size: 30px;
+    color: azure;
+    text-decoration:underline;
+    line-height: 70px;
+    text-align: center;
+    font-family: 'Boogaloo', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.input-1 {
+    width: 291px;
+    padding: 5px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    border-color:#a811ff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.input-2{
+   width: 90px;
+   background-color: #a811ff;
+   border-radius: 4px;
+   border-color:#a811ff;
+   padding: 2px;
+}
+
+.formulario-registro p {
+    width: 250px;
+    font-family: 'Boogaloo', cursive;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.formulario-registro a {
+    text-decoration:line-through;
+    color:#8c0bd6 ;
+}
+
+
+.body-1 {
+    background-image: url('imagenes/pizza.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 900px;
+    width: auto;
+    background-size:cover ;
+    background-attachment: fixed
+}
+    /*Fianal Formulario*/
+
+#h1-terminos-condiciones{
+color:rgb(255, 0, 0) ;
+}
+
+#span-terminos-condiciones-1, #span-terminos-condiciones-2{
+    color: #050405;
+}
