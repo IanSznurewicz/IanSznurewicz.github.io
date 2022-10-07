@@ -1,14 +1,11 @@
-   /*Inicio HTML*/
    * {       
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    position: relative;
 }
-    /*Final HTML*/
 
-    
-    /* Inicio redes sociales */
+
+
+
 #redes-sociales{
     color: blue;
 }
@@ -21,18 +18,181 @@
     color: brown;
 }
 
-    /*Fianl Redes sociales*/
-
 .imagen-1{
     width: 500px;
     height: 500px;
 }
 
-    /*Inicio Formulario*/
-.registro-1 {
-    width: 300px;
-    height: 200px;
+    /*-------------------------------------------------Inicio Header------------------------------------------------------------*/  
+
+    /*Inicio Titulo Header*/
+.h1-header{
+    font-size: 40px;
+    color: white;
+    margin-left: 200px;
 }
+
+.imagen-logo {
+    width: 120px;
+    margin-top: -40px;
+    margin-left: -15px;
+    position: absolute;
+}
+    /*Final Titulo Header*/
+ 
+
+
+.header{
+    position:fixed;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    padding-left: 30%;
+    padding-right: 634px;
+    border-bottom: solid #ff6a00 2px;
+}
+    /*Header Index*/
+#header-index-1 {
+    margin-top: -520px;
+}
+    /*Header Index*/
+
+.header a:hover {
+    text-decoration: underline white;
+    color: #ed620c;
+}
+
+.header a:active {
+    border: solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.header a {
+    color: rgb(255, 255, 255);
+}
+
+
+    /*Header del INDEX / recomendaciones*/
+
+.header-0:active {
+    text-decoration: none;
+}
+.header-0:hover {
+    text-decoration: none;
+}
+
+.header-0 a {
+    text-decoration:overline #ed620c;
+}
+
+.header-recomendaciones {
+    position: absolute;
+    margin-left: -380px;
+    margin-top: 25px;
+}
+
+    /*Header del INDEX / recomendaciones*/
+
+
+    /*Header del INDEX / quienes somos*/
+
+.header-quienes-somos {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 25px;
+}
+    /*Header del INDEX / quienes somos*/
+
+
+/*INICIO*/
+
+.header-1 {
+    margin-left: -400px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.header-1 a {
+    text-decoration: none;
+}
+
+/*INICIO*/
+
+    /*MENU*/
+.header-2{
+    margin-left: -330px;
+    margin-top: 19px;
+}
+
+.header-2 a {
+    text-decoration: none;
+}
+    /*MENU*/
+
+
+    /*CONTACTOS*/
+.header-3{
+    margin-left: -260px;
+    margin-top: -21px;
+}
+
+.header-3 a {
+    text-decoration: none;
+}
+    /*CONTACTOS*/
+
+
+    /*OFERTAS*/
+.header-4{
+    margin-left: -143px;
+    margin-top: -22px;
+}
+
+.header-4 a {
+    text-decoration: none;
+}
+    /*OFERTAS*/
+
+
+    /* Inicio REDES SOCIALES*/
+.header-6{
+    margin-left: 30px;
+    margin-top: -22px;
+}
+
+.header-6 a {
+    text-decoration: none;
+}
+    /*Final REDES SOCIALES*/
+
+
+    /*Inicio ENVIOS*/
+
+.header-5 {
+    margin-left: -50px;
+    margin-top: -22px;
+}
+
+.header-5 a{
+    text-decoration: none;
+}
+    /*Final ENVIOS*/
+
+
+    /*Inicio estilo Fonts "Hedaer"*/
+.estilo-font{
+    font-family: 'Nunito', sans-serif;
+}
+    /*Final estilo Fonts "Hedaer"*/
+
+    /*-------------------------------------------------Final Header--------------------------------------------------------------*/  
+
+
+
+
+    /*-------------------------------------------Inicio "Registro" / inicio de sesion---------------------------------------------*/  
 
 .formulario-registro{
     width: 330px;
@@ -47,7 +207,7 @@
 }
 
 .formulario-registro h2 {
-    font-size: 30px;
+    font-size: 40px;
     color: azure;
     text-decoration:underline;
     line-height: 70px;
@@ -55,7 +215,6 @@
     font-family: 'Boogaloo', cursive;
     font-family: 'Permanent Marker', cursive;
     font-family: 'Source Code Pro', monospace;
-
 }
 
 .input-1 {
@@ -63,17 +222,17 @@
     padding: 5px;
     border-radius: 7px;
     margin-bottom: 5px;
-    border-color:#a811ff;
+    border-color:#ff6a00;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 .input-2{
-   width: 90px;
-   background-color: #a811ff;
-   border-radius: 4px;
-   border-color:#a811ff;
-   padding: 2px;
+    width: 90px;
+    background-color: #ff6a00;
+    border-radius: 4px;
+    border-color:#ff6a00;
+    padding: 2px;
 }
 
 .formulario-registro p {
@@ -85,12 +244,32 @@
     line-height: 20px;
 }
 
-.formulario-registro a {
-    text-decoration:line-through;
-    color:#8c0bd6 ;
+
+.formulario-registro a{
+    text-decoration:line-through 2px #ff6a00;
+    color:#f5f5f5 ;
 }
 
+.formulario-registro a:hover {
+    text-decoration: underline 2px #ff6a00;
+}
 
+    /*Icono Index / conexion "Registro"*/
+.icono-registro {
+    width: 55px;
+    height: 50px;
+    margin-left: 1340px;
+    margin-top: -410px;
+    position:absolute;
+    border: solid black;
+    border-radius: 100%;
+    padding: 10px;
+    background-color: white;
+}
+    /*Icono Index / conexion "Registro"*/
+
+
+    /*Inicio Body "imagen"*/
 .body-1 {
     background-image: url('imagenes/pizza.jpeg');
     background-repeat: no-repeat;
@@ -100,12 +279,245 @@
     background-size:cover ;
     background-attachment: fixed
 }
-    /*Fianal Formulario*/
+    /*Final Body "imagen"*/
 
+
+    /*Inicio Terminos y Condiciones*/
 #h1-terminos-condiciones{
-color:rgb(255, 0, 0) ;
+    color:rgb(255, 0, 0) ;
 }
 
 #span-terminos-condiciones-1, #span-terminos-condiciones-2{
     color: #050405;
+}
+    /*Final Terminos y Condiciones*/
+
+#registro-correcto {
+    position: absolute;
+}    
+#registro-correcto-1 {
+    font-size: 50px;
+    margin-top: 130px;
+    margin-left: 400px;
+    border: solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #ff6a00;  
+    text-decoration:underline black;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+#registro-correcto-2 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+    /*-------------------------------------------Final "Registro" / inicio de sesion----------------------------------------------*/  
+
+
+        
+
+    /*------------------------------------------------------Inicio Index----------------------------------------------------------*/ 
+
+.parrafo-index{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 520px;
+    margin-left: 600px;
+}
+
+    /*Footer*/
+.footer-index {
+    margin-top: 2000px;
+}
+    /*Footer*/
+
+
+    /*Fondo Index*/
+#body-index {
+    background-image: url("imagenes/65806.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover ;
+    background-attachment: fixed;
+}
+    /*------------------------------------------------------Final Index----------------------------------------------------------*/  
+
+    /* Inicio Seccion "Contactos"*/
+.formulario-contactos {
+    position: absolute;
+ }
+
+ #contactos-1 {
+    margin-top: 130px;
+ }
+
+ #contactos-2 {
+    margin-top: 100px;
+ }
+    /*Final seccion "Contactos"*/
+
+
+    /*Inicio Seccion "Menu"*/
+ .menu {
+    position: absolute;
+    margin-top: 100px; 
+}
+    /*Final Seccion "Menu"*/
+ 
+    /*Inicio Seccion "Ofertas"*/
+ .ofertas {
+    position: absolute;
+    margin: 200px;
+ }
+    /*Final Seccion "Ofertas"*/
+
+
+#recomendaciones {
+    background-color: white;
+    padding: 600px 220px 220px 220px;
+    border: solid black 4px;
+    margin-top:200px ;
+}
+
+#recomendaciones-2 {
+    margin-top: -900px;
+    margin-left: -200px;
+}
+
+#h1-recomendaciones {
+    font-size: 60px;
+    color: black;
+    position:absolute;
+    margin-top: 750px;
+    margin-left: 450px;
+    text-decoration:overline #ff6a00;
+}
+
+ #imagen-recomendaciones-1 {
+    position: absolute;
+    width: 23%;
+    border: solid black 3px;
+    border-radius: 10px;
+    padding-top: 3px;
+    background-color: white;
+    margin-top: 500px;
+    margin-left: 530px;
+ }
+
+ #imagen-recomendaciones-2 {
+    position: absolute;
+    width: 23%;
+    border: solid black 3px;
+    border-radius: 10px;
+    padding-top: 3px;
+    background-color: white;
+    margin-top: 440px;
+    margin-left: 900px;
+ }
+
+ #parrafo-combos {
+    font-size: 25px;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 430px;
+    color: black;
+ }
+
+    /*Inicio Platos de comida individuales / compartir*/
+
+ #imagen-recomendaciones-3 {
+    position: absolute;
+    width: 23%;
+    height: 180px;
+    border: solid black 3px;
+    border-radius: 10px;
+    padding-top: 3px;
+    background-color: white;
+    margin-top: 840px;
+    margin-left: 960px;
+ }
+
+ #imagen-recomendaciones-4 {
+    position: absolute;
+    width: 23%;
+    height: 183px;
+    border: solid black 3px;
+    border-radius: 10px;
+    margin-top: 840px;
+    margin-left: 560px;
+ }
+
+ #imagen-recomendaciones-5 {
+    position: absolute;
+    width: 20%;
+    height: 150px;
+    border: solid black 3px;
+    border-radius: 10px;
+    margin-top: 860px;
+    margin-left: 240px;
+ }
+
+ #parrafo-platos {
+    font-size: 25px;
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 30px;
+    color: black;
+ }
+    /*Final Platos de comida individuales / compartir*/
+
+#quienes-somos {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 0px;
+    background-color: white;
+    padding: 400px 220px 220px 200px;
+    border: solid black 4px;
+}
+
+#quienes-somos-h2 {
+    font-size: 50px;
+    text-decoration:overline #ff6a00;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 340px;
+}
+
+#quienes-somos-mapa {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 420px;
+}
+
+#quienes-somos-parrafo-1 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -180px;
+}
+
+#quienes-somos-parrafo-2 {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -180px;
+}
+
+
+#quienes-somos-ubicacion {
+    font-size: 15px;
+    margin-left:580px;
+}
+
+#quienes-somos-h2-2 {
+    font-size: 29px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 40px;
 }

@@ -5,84 +5,151 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
     <link rel="stylesheet" href="style.css">
+    <!--CSS-->
     <title>Pagina Principal (PizzSpeed)</title>
 </head>
 
-<body>
+<body id="body-index">
 
     <!-- Inicio cabeza de pagina -->
-    <Header>
-        <nav>
+    <Header class="header" id="header-index-1">
 
-            <ul>
-                <li><a href="menu.html">MENU</a></li>
-                <li><a href="contactos.html">CONTACTOS</a></li>
-                <li><a href="ofertas.html">OFERTAS</a></li>
-                <li><a href="envios.html">ENVIOS</a></li>
-                <li><a href="#redes-sociales">REDES SOCIALES</a></li>
-            </ul>
-        </nav>
-
-        <!--Inicio Registro-->
+    <div class="estilo-font">
         <section>
-            <nav>
-                <a href="registro.html">Registro</a>
-            </nav>
+                <nav>
+                    <ul>
+                        <li class="header-1"><a href="index.html">INICIO</a></li>
+                        <li class="header-2"><a href="menu.html">MENU</a></li>
+                        <li class="header-3"><a href="contactos.html">CONTACTOS</a></li>
+                        <li class="header-4"><a href="ofertas.html">OFERTAS</a></li>
+                        <li class="header-5"><a href="envios.html">ENVIOS</a></li>  
+                        <li class="header-6"><a href="#redes-sociales">REDES SOCIALES</a></li>
+                    <div class="header-0">
+                        <li class="header-recomendaciones"><a href="#recomendaciones">RECOMENDACIONES</a></li>
+                        <li class="header-quienes-somos"><a href="#quienes-somos">¿QUIENES SOMOS?</a></li>
+                    </div>
+                    </ul>
+                </nav>
         </section>
-        <!--Final Registro-->
+    </div>
+        
 
         <section>
-            <h1>PizzSpeed 📦</h1>
+            <h6 class="h1-header">PizzSpeed <img class="imagen-logo" src="imagenes/Imagen Logo.png" alt=""></h6>
         </section>
+
     </Header>
     <!--Final de cabeza de pagina-->
 
     <!--Inicio Main-->
     <main>
+                <!---Inicio icono registro-->
+        <section>
+                <nav>
+                    <a href="registro.html"><img src="imagenes/icono-de-cuenta-usuario-símbolo-línea-registro-inicio-sesión-en-fondo-blanco-ilustración-vector-trazo-editable-para-sitios-web-170638959.jpeg" alt="registro / inicio de session" class="icono-registro"></a>
+                </nav>
+        </section>
+                <!--Final icono registro-->
+
+    <div>
+        <section>
+                <h2 class="parrafo-index">Disfruta de las mejores “Pizzas” del pais. Envios a cualquier provincia de Argentina, “PEDI YA”. </h2>
+        </section>
+    </div>
+
+    <!--Inicio Recomendaciones-->
+    <div id="recomendaciones">
+
+        <div id="recomendaciones-2">
+        <h1 id="h1-recomendaciones">Recomendaciones</h1>
+
+        <section>
+        <div>
+            <!--Inicio Combos-->
+            <img id="imagen-recomendaciones-1" src="imagenes/4-super-combo-espagueti.jpeg" alt="plato compartido, de 2 pizzas, 1 cocacola y un plato de spagueti">
+            <img id="imagen-recomendaciones-2" src="imagenes/6-combo-fut.jpeg" alt="plato compartido, de 2 pizzas, 1 cocacola y un plato de spagueti + un plato de patas de pollo">
+
+            <p id="parrafo-combos"><i>Combos:</i></p>
+            <!--Final Combos-->
+        </div>
+        
+        <div>
+            <!--Inicio Platos Individuales / compartir-->
+            <img id="imagen-recomendaciones-3" src="imagenes/combos-1.png" alt="plato individual de 1pizza mediana, con una bebida a eleccion">
+            <img id="imagen-recomendaciones-4" src="imagenes/pizza-plato-ksnH--984x468@Diario Sur.jpeg" alt="Pizza individual de hongos y tomate">
+            <img id="imagen-recomendaciones-5" src="imagenes/pizza_chef_koketo_01.webp" alt="Pizza individual chica, para una persona">
+        <div id="parrafo-platos">
+            <p><i>Platos de "comida"</i> </p>
+            <p><i>individuales y/o</i></p>
+            <p><i>compartir:</i></p>
+        </div>
+         <!--Final Platos Individuales / compartir-->
+            </div>
+
+        </div>
+        </section>
+
+    </div>
+
+    <div id="quienes-somos">
+
+
+        <h2 id="quienes-somos-h2">¿Quienes somos?</h2>
+
+    <div id="quienes-somos-parrafo">
+
+        <div id="quienes-somos-parrafo-1">
+        <!--Inicio Quienes somos?-->
+            <p>Somos una empresa de unicamente venta de Pizzas pre-echas e calentadas, con una receta echa por nosotros mismos,</p>
+            <p>esperemos disfruten en su totalidad de las Pizzas e bebidas que les otorguemos con estas.</p>
+        </div>
+            <!--Final quienes somos-->
+
+
+
+        <!--Inicio Entregas-->
+        <aside id="quienes-somos-parrafo-2">
+            <p>Realizamos entregas a toda las provinicias del pais;tengan en cuenta, que dependiendo de</p>
+            <p>la tardanza se cobrara mas o menos.</p>
+        </aside>
+        <!--Final Entregas-->
+
+    </div> 
+
+
+
+        <section>
+
+        <div id="quienes-somos-ubicacion">
+                    <!--Inicio ¿Donde estamos ubicados?-->
+            <h2 id="quienes-somos-h2-2">¿Donde estamos ubicados?</h2>
+            <p>
+                Nos ubicamos por: Int. Alberto M. Campos 1876, B1650 San Martín, Provincia de Buenos Aires.
+                Les dejamos el siguiente mapa para que nos puedan ubicar con mas facielidad:
+            </p> 
+
+        </div>
+                    <!--Final ¿Donde estamos ubicados?-->
+
+
+            <!--Inicio Ubicacion Pizzeria-->        
+            <iframe id="quienes-somos-mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.663280483405!2d-58.45887508417588!3d-34.56207996280437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb595a05dd253%3A0xe50c3e5a81e2a7e7!2sPizzSpeed!5e0!3m2!1ses-419!2sar!4v1664343593806!5m2!1ses-419!2sar" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!--Final Ubicacion Pizzeria-->      
+        </section>
+    </div>
+
     </main>
     <!--Final Main-->
 
 
-    <!--Inicio Pie de pagina-->
-    <footer>
-        <section id="redes-sociales">
-            <ul>
-                <li><a href="https://www.instagram.com/marino_arg/" target="_blank" id="Instagram">Instagram</a>
-                </li>
-                <li><a href="https://www.facebook.com/marinovillacrespo991/ " target="_blank" id="Facebook">Facebook</a>
-                </li>
-            </ul>
-        </section>
 
-        <section>
-            <h2>
-                "PizzSpeed" En:
-            </h2>
+    <!--Estilos Fonts-->
 
-            <!-- Inicio Ubicacion Pizzeria -->
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.663280483405!2d-58.45887508417588!3d-34.56207996280437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb595a05dd253%3A0xe50c3e5a81e2a7e7!2sPizzSpeed!5e0!3m2!1ses-419!2sar!4v1664343593806!5m2!1ses-419!2sar"
-                width="295" height="155" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        </section>
-        <!-- Final Ubicacion Pizzeria -->
-
-        <section>
-            <a href="quienes-somos.html">¿Quienes Somos?</a>
-        </section>
-    </footer>
-    <!--Final pie de pagina-->
-
-    <section>
-        <a href="registro.html"><img class="registro-1" src="imagenes/png-transparent-iphone-telephone-computer-icons-center-electronics-text-telephone-call.png" alt="Imagen puta"></a>
-    </section>
-
-
-
-
-
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;1,600&display=swap');
+    </style>
 </body>
 
 </html>
